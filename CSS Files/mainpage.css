@@ -131,7 +131,7 @@
 }
 
 .forest-fires img{
-    border-radius: 10px;
+    border-radius: 30px;
     width: 600px;
     height: 60vh;
     margin-left: -40px;
@@ -139,4 +139,28 @@
 
 .forest-fires p{
     margin-top: 0px;
+}
+
+.triple-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 130px;
+    margin-top: 150px;
+    width: 100%;
+    height: 60vh;
+}
+
+.item-img img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    width: 30vh;
+    height: 30vh;
+}
+
+.item-img p{
+    margin-left: -50px;
+    width: 50vh;
 }
