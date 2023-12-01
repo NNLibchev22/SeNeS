@@ -1,0 +1,114 @@
+@import url(navbar.css);
+@import url(styles.css);
+@import url(footer.css);
+
+.bio{
+    width: 100vw;
+    overflow: hidden;
+}
+
+.names{
+    display: flex;
+    margin-top: 80px;
+    width: 20%;
+    font-size: 20px;
+    gap: 68%;
+    margin-left: 5vw;
+}
+
+.nedqlko{
+    margin-left: -5%;
+}
+
+.simeon{
+    margin-left: -5%;
+}
+
+.stefan{
+    margin-left: -3%;
+}
+
+.bio-text{
+    width: 125%;
+    display: flex;
+    gap: 5%;
+
+}
+
+.name-text{
+    width: 15%;
+    text-align: justify;
+    margin-left: 1.5vw;
+    font-size: 20px;
+}
+
+.text-name{
+    display: block;
+    justify-content: center;
+    margin-left: 3vw;
+    margin-right: 3vw;
+}
+
+.bio-img{
+    display: flex;
+    width: 125%;
+    gap: 5%;
+    margin-top: 5vh;
+    margin-left: 3vw;
+    margin-right: 3vw;
+}
+
+.about-img{
+    background-image: url(../Images/pexels-yogendra-singh-2480807.jpg);
+    width: 15%;
+    height: 45vh;
+    overflow: hidden;
+    background-size: cover;
+    border-radius: 5%;
+}
+
+.slide-buttons{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+    gap: 1rem;
+}
+
+.next{
+    height: 8vh;
+    width: 4vw;
+    margin-left: 3vw;
+    margin-right: 3vw;
+    margin-bottom: 1vw;
+    border-radius: 50%;
+    border: none;
+    background-color: #D9D9D9;
+    transition: 0.3s ease-in-out;
+}
+
+.prev{
+    height: 8vh;
+    width: 4vw;
+    margin-left: 3vw;
+    margin-right: 3vw;
+    margin-bottom: 1vw;
+    border-radius: 50%;
+    border: none;
+    background-color: #D9D9D9;
+    transition: 0.3s ease-in-out;
+}
+
+.next:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.prev:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.next:active ~ .bio-items{
+    margin-left: -20%;
+}
