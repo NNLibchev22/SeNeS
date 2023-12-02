@@ -5,11 +5,12 @@
 .bio{
     width: 100vw;
     overflow: hidden;
+    margin-bottom: -8vh;
 }
 
 .names{
     display: flex;
-    margin-top: 7.4vh;
+    margin-top: 13vh;
     width: 20%;
     font-size: 20px;
     gap: 68%;
@@ -52,15 +53,15 @@
 .bio-img{
     display: flex;
     width: 125%;
-    gap: 5%;
+    gap: 6%;
     margin-top: 5vh;
-    margin-left: 3vw;
+    margin-left: 3.9vw;
     margin-right: 3vw;
 }
 
 .about-img{
     background-image: url(../Images/pexels-yogendra-singh-2480807.jpg);
-    width: 15%;
+    width: 14%;
     height: 45vh;
     overflow: hidden;
     background-size: cover;
@@ -107,8 +108,4 @@
 .prev:hover{
     transform: scale(1.1);
     cursor: pointer;
-}
-
-.next:active ~ .bio-items{
-    margin-left: -20%;
 }
