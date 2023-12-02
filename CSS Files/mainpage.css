@@ -36,21 +36,21 @@
 .manual-nav{
     position: absolute;
     width: 200vh;
-    margin-top: -40px;
+    margin-top: -6.5vh;
     display: flex;
     justify-content: center;
 }
 
 .manual-btn{
     border: 2px solid white;
-    padding: 5px;
+    padding: 0.8vh;
     border-radius: 10px;
     cursor: pointer;
     transition: 0.2s;
 }
 
 .manual-btn:not(:last-child){
-    margin-right: 40px;
+    margin-right: 6.6vh;
 }
 
 .manual-btn:hover{
@@ -76,20 +76,20 @@
 .auto-nav{
     position: absolute;
     width: 200vh;
-    margin-top: 445px;
+    margin-top: 73.5vh;
     display: flex;
     justify-content: center;
 }
 
 .auto-nav div{
     border: 2px solid white;
-    padding: 5px;
+    padding: 0.8vh;
     border-radius: 10px;
     transition: 0.2s;
 }
 
 .auto-nav div:not(:last-child){
-    margin-right: 40px;
+    margin-right: 6.6vh;
 }
 
 #radio1:checked ~ .auto-nav .auto-btn1{
@@ -114,34 +114,34 @@
     gap: 15px;
     color: #393939;
     font-weight: bold;
-    margin-top: -25px;
-    margin-left: 30px;
+    margin-top: -4.1vh;
+    margin-left: 5vh;
 }
 
 .green-word{
-    margin-top: 58px;
+    margin-top: 9.5vh;
     color: #A1C617;
 }
 
 .forest-fires{
     display: flex;
     justify-content: center;
-    gap: 20px;
+    gap: 3.2vh;
     width: 100%;
     height: 50vh;
     font-size: 25px;
-    margin-top: -40px;
+    margin-top: -6.6vh;
 }
 
 .forest-fires img{
     border-radius: 30px;
-    width: 600px;
+    width: 98.3vh;
     height: 60vh;
-    margin-left: -15px;
+    margin-left: 2.45vh;
 }
 
 .forest-fires p{
-    margin-top: 0px;
+    margin-top: 0vh;
     width: 40vw;
     height: 60vh;
     text-align: justify; 
@@ -151,8 +151,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 90px;
-    margin-top: 150px;
+    gap: 14.75vh;
+    margin-top: 23.59vh;
     width: 100%;
     height: 60vh;
 }
@@ -162,20 +162,20 @@
     justify-content: center;
     align-items: center;
     border-radius: 30px;
-    margin-left: 50px;
+    margin-left: 8.19vh;
     width: 30vh;
     height: 30vh;
 }
 
 .item-img p{
-    margin-left: 0px;
+    margin-left: 0vh;
     width: 50vh;
     text-align: justify;
 }
 
 .quote-div{
     width: 100vw;
-    margin-top: 75px;
+    margin-top: 12.29vh;
 }
 .quote-div{
     background-image: url(../Images/pexels-ákos-szabó-440731.jpg);
@@ -183,7 +183,7 @@
     overflow: hidden;
     width: 90vw;
     height: 70vh;
-    margin-left: 60px;
+    margin-left: 9.83vh;
     border-radius: 25px;
     filter: brightness(50%);
 }
@@ -196,7 +196,7 @@
     width: 55vw;
     height: 35vh; 
     border-radius: 20px;
-    margin-left: 215px;
+    margin-left: 35.25vh;
     margin-top: 20vh;
 }
 
