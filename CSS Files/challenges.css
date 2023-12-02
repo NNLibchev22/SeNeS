@@ -1,0 +1,103 @@
+@import url(navbar.css);
+@import url(styles.css);
+@import url(footer.css);
+
+.Title{
+    display: flex;
+    margin-top: 100px;
+    align-items: center;
+    justify-content: center;
+    font-size: 100px;
+    font-family: url('https://fonts.googleapis.com/css2?family=Inter:wght@600;700&display=swap');;
+
+    color: #393939;
+    
+}
+.first-3-images{
+    display: flex;
+    justify-content: space-between;
+}
+.first-image{
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+}
+.first-image img{
+    
+    border-radius: 30px;
+    width: 900px;
+    height: 90vh;
+    
+}
+.first-small-image{
+    display: flex;
+    justify-content: right;
+    padding: 30px;
+    margin-top: 1%;
+}
+
+.first-small-image img{
+    border-radius: 30px;
+    width: 700px;
+    height: 41vh;
+    
+}
+
+.second-small-image{
+    display: flex;
+    justify-content: right;
+    padding: 30px;
+    margin-top: 1%;
+}
+
+
+.second-small-image img{
+    border-radius: 30px;
+    width: 700px;
+    height: 41vh;
+    
+}
+
+.second-3-images{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.first-small-image2{
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+}
+
+.first-small-image2 img{
+    border-radius: 30px;
+    width: 700px;
+    height: 41vh;
+    
+}
+
+.second-small-image2{
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+}
+
+.second-small-image2 img{
+    border-radius: 30px;
+    width: 700px;
+    height: 41vh;
+    
+}
+.third-image{
+    display: flex;
+    justify-content: right;
+    padding: 30px;
+}
+.third-image img{
+    
+    border-radius: 30px;
+    width: 900px;
+    height: 90vh;
+    
+}
