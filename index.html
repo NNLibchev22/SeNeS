@@ -7,16 +7,17 @@
     <link rel="stylesheet" href="./CSS Files/navbar.css">
     <link rel="stylesheet" href="./CSS Files/mainpage.css">
     <script src="./JS Files/slider.js"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
     <title>SeNeS</title>
 </head>
 <body>
     <nav class="navbar">
         <div class="Logo"><a href="index.html"><img src="./Images/SeNeS-logos_1_-removebg-preview.png" alt="SeNeS" class="logo"></a></div>
             <div class="pages">
-             <a href="#" class="nav-item">HOME</a>    
+             <a href="./index.html" class="nav-item">HOME</a>    
              <a href="./HTMLFiles/challenges.html" class= "nav-item">CHALLENGES</a>
              <a href="./HTMLFiles/aboutus.html" class="nav-item">ABOUT</a>
-            <a href="#" class="nav-item">CONTACT</a>
+            <a href="./HTMLFiles/contactus.html" class="nav-item">CONTACT</a>
         </div>
     </nav>
 <div class="slider">
@@ -65,7 +66,7 @@
 
 <div class="triple-img">
     
-    <div class="item-img">
+    <div class="item-img" id="item-img1">
         <a href="#">
         <img src="./Images/AlfedPalmersmokestacks.jpg" alt="pollution">
     </a>
@@ -73,7 +74,7 @@
     </div>
 
 
-    <div class="item-img">
+    <div class="item-img" id="item-img2">
         <a href="#">
         <img src="./Images/pexels-adam-smith-6169150.jpg" alt="pollution">
     </a>
@@ -81,7 +82,7 @@
     </div> 
 
    
-    <div class="item-img"> 
+    <div class="item-img" id="item-img3"> 
         <a href="#">
         <img src="./Images/1672170682-arman_211222_iranenvironmentpollution_irmm.jpg" alt="pollution">
     </a>
@@ -136,5 +137,21 @@
     <div class="soc-medias"><a href="#"><img src="./Images/teams-icon-1024x1024-2umqdhm3.png"></a></div>
 </div>
 </footer>
+
+<script>
+    ScrollReveal({
+        distance: '60px',
+        duration: 2000,
+        delay: 400
+    });
+
+    ScrollReveal().reveal('.forest-fires img', {delay: 500})
+    ScrollReveal().reveal('.forest-fires p', {delay: 600})
+    ScrollReveal().reveal('#item-img1', {delay: 500})
+    ScrollReveal().reveal('#item-img2', {delay: 600})
+    ScrollReveal().reveal('#item-img3', {delay: 700})
+    ScrollReveal().reveal('.quote-div', {delay: 500})
+
+</script>
 </body>
 </html>

@@ -1,0 +1,132 @@
+@import url(navbar.css);
+@import url(footer.css);
+
+.starting-img{
+    background-image: url(../Images/pexels-vicente-vidal-2697050.jpg);
+    background-size: cover;
+    margin-top: 10vh;
+    overflow: hidden;
+    height: 40vh;
+    filter: brightness(50%);
+    width: 100%;
+}
+
+.sentence{
+    margin-top: 20vh;
+    display: flex;
+    width: 100%;
+    height: 5vh;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    margin-left: -2vw;
+    gap: 2vw;
+}
+
+.contactus{
+    color: #393939;
+}
+
+.contactus-green{
+    color: #A1C617;
+}
+
+.messages{
+    margin-top: 7vh;
+    width: 50vw;
+    height: 90vh;
+    margin-left: 5vw;
+    position: relative;
+}
+
+.info {
+    width: 40vw;
+    height: 7vh;
+    margin-top: 3vh;
+    border: 1px solid black;
+    outline: none;
+    font-size: 20px;
+}
+
+.Fname label{
+    position: absolute;
+    top: 5vh;
+    left: 1vw;
+    background-color: white;
+    transition: .3s;
+    padding: 0 5px;
+}
+
+.Surname label{
+    position: absolute;
+    top: 18.8vh;
+    left: 1vw;
+    background-color: white;
+    transition: .3s;
+    padding: 0 5px;
+}
+
+.Email label{
+    position: absolute;
+    top: 32.6vh;
+    left: 1vw;
+    background-color: white;
+    transition: .3s;
+    padding: 0 5px;
+}
+
+.Message {
+    position: absolute;
+    top: 43.4vh;
+    font-size: 18px;
+    min-width: 79.9vh;
+    max-width: 80vh;    
+    min-height: 34.9vh;
+    max-height: 35vh;
+    background-color: white;
+    transition: .3s;
+    padding: 0 0.834vh;
+    margin-top: 1vh;
+    font-family: 'Inter', sans-serif;
+}
+
+.Fname input:focus ~ label,
+.Fname input:valid ~ label{
+    margin-top: -3.5vh;
+    font-size: 15px;
+}
+
+.Surname input:focus ~ label,
+.Surname input:valid ~ label{
+    margin-top: -3.5vh;
+    font-size: 15px;
+}
+
+.Email input:focus ~ label,
+.Email input:valid ~ label{
+    margin-top: -3.5vh;
+    font-size: 15px;
+}
+
+.button{
+    width: 40vw;
+    height: 7vh;
+    margin-left: 5vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.submit{
+    height: 6vh;
+    width: 10vw;
+    font-size: 20px;
+    background-color: transparent;
+    border: 1.5px solid black;
+}
+
+.submit:hover{
+    border: 0.33vh solid red;
+    cursor: pointer;
+    color: red;
+}
