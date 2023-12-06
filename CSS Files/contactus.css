@@ -1,5 +1,6 @@
 @import url(navbar.css);
 @import url(footer.css);
+@import url(styles.css);
 
 .starting-img{
     background-image: url(../Images/pexels-vicente-vidal-2697050.jpg);
@@ -11,8 +12,8 @@
     width: 100%;
 }
 
-.sentence{
-    margin-top: 20vh;
+.Sentence{
+    margin-top: 17vh;
     display: flex;
     width: 100%;
     height: 5vh;
@@ -34,7 +35,7 @@
 .messages{
     margin-top: 7vh;
     width: 50vw;
-    height: 90vh;
+    height: 83vh;
     margin-left: 5vw;
     position: relative;
 }
@@ -117,16 +118,113 @@
     align-items: center;
 }
 
+textarea{
+    border: 1px solid black;
+    color: black;
+}
+
+::placeholder{
+    color: black;
+}
+
 .submit{
     height: 6vh;
     width: 10vw;
-    font-size: 20px;
+    font-size: 15px;
     background-color: transparent;
-    border: 1.5px solid black;
+    border: 1px solid black;
 }
 
 .submit:hover{
-    border: 0.33vh solid red;
+    border: 1px solid red;
     cursor: pointer;
     color: red;
+}
+
+.contactus-page{
+    display: flex;
+}
+
+.address{
+    display: flex;
+}
+
+.Phone{
+    display: flex;
+    margin-top: 3vh;
+}
+
+.email{
+    display: flex;
+    margin-top: 3vh;
+}
+
+.home-div{
+    margin-left: -0.5vw;
+}
+
+.mail-div{
+    margin-left: -0.5vw;
+}
+
+#home-em{
+    font-size: 35px;
+    margin-top: 4.5vh;
+    margin-right: 2.5vw;
+}
+
+#phone-em{
+    font-size: 35px;
+    margin-top: 5vh;
+    margin-right: 2.5vw;    
+}
+
+#letter-em{
+    font-size: 30px;
+    margin-top: 5vh;
+    margin-right: 2.5vw;    
+}
+
+.information{
+    margin-left: 10vw;
+    margin-top: 13vh;
+}
+
+.kv{
+    font-size: 25px;
+}
+
+.country{
+    font-size: 17px;
+    color: grey;
+    margin-top: -2vh;
+}
+
+.phone{
+    font-size: 25px;
+}
+
+.time{
+    font-size: 17px;
+    color: grey;
+    margin-top: -2vh;
+}
+
+.mail{
+    font-size: 25px;
+}
+
+.mail-us{
+    font-size: 17px;
+    color: grey;
+    margin-top: -2vh;
+}
+
+footer{
+    margin-top: -10vh;
+}
+
+.sentence{
+    margin-top: -10.5vh;
+    font-size: 20px;
 }
