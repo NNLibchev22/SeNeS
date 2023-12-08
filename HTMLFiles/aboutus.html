@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About Us</title>
     <link rel="stylesheet" href="../CSS Files/aboutus.css">
+    <script src="https://unpkg.com/scrollreveal"></script>
     <script src="../JS Files/main.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"></head>
 <body>
@@ -17,6 +18,10 @@
             <a href="../HTMLFiles/contactus.html" class="nav-item">CONTACT</a>
         </div>
     </nav>
+
+    <div class="start-pic">
+        <p class="normal-word">ABOUT</p><p class="green-word">US</p>
+    </div>
 
     <div class="bio">
         <div class="bio-items">
@@ -90,7 +95,7 @@
     <div class="sec-column">
        
             <div class="Contact Us">
-                <a href="#"><p>Contact Us</p></a>
+                <a href="../HTMLFiles/contactus.html"><p>Contact Us</p></a>
             </div>
             <div class="About Us">
                 <a href="../HTMLFiles/aboutus.html" class="footer-about"><p>About Us</p></a>
@@ -115,6 +120,18 @@
         <div class="soc-medias"><a href="#"><img src="../Images/teams-icon-1024x1024-2umqdhm3.png"></a></div>
     </div>
     </footer>
+
+    <script>
+        ScrollReveal({
+        distance: '60px',
+        duration: 2000,
+        delay: 400
+    });
+    
+    ScrollReveal().reveal('.text-name', {delay: 100})
+    ScrollReveal().reveal('.bio-img', {delay: 200})
+
+    </script>
  
 </body>
 </html>

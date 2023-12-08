@@ -29,13 +29,13 @@
 }
 
 .slide img{
-    width: 202.3vh;
+    width: 100vw;
     height: 80vh;
 }
 
 .manual-nav{
     position: absolute;
-    width: 200vh;
+    width: 100vw;
     margin-top: -6.5vh;
     display: flex;
     justify-content: center;
@@ -75,7 +75,7 @@
 
 .auto-nav{
     position: absolute;
-    width: 200vh;
+    width: 100vw;
     margin-top: 73.5vh;
     display: flex;
     justify-content: center;

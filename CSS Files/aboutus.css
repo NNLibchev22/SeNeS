@@ -2,6 +2,32 @@
 @import url(styles.css);
 @import url(footer.css);
 
+.start-pic{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10vh;
+    width: 100vw;
+    height: 25vh;
+    background-image: url(../Images/pexels-ron-lach-9034661.jpg);
+    background-size: cover;
+    overflow: hidden;
+    gap: 1vw;
+    filter: brightness(60%);
+}
+
+.start-pic p{
+    font-size: 50px;
+}
+
+.normal-word{
+    color: #393939;
+}
+
+.green-word{
+    color: #A1C617;
+}
+
 .bio{
     width: 100vw;
     overflow: hidden;
@@ -10,7 +36,7 @@
 
 .names{
     display: flex;
-    margin-top: 13vh;
+    margin-top: 8vh;
     width: 20%;
     font-size: 20px;
     gap: 68%;

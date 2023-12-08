@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Challenges</title>
-
+    <script src="https://unpkg.com/scrollreveal"></script>
     <link rel ="stylesheet" href = "../CSS Files/challenges.css">
     <script href="../JS Files/main.js" defer></script>
 </head>
@@ -39,7 +39,7 @@
                     <div class="back"></div>
             </div>
             </div>
-            <div class = "small-image">
+            <div class = "small-image2">
                 <div class="small-flip">
                     <div class="front"></div>
                     <div class="back"></div>
@@ -61,7 +61,7 @@
             </div>
             </div>
 
-            <div class = "small-image">
+            <div class = "small-image2">
                 <div class="small-flip">
                     <div class="front"></div>
                     <div class="back"></div>
@@ -91,7 +91,7 @@
     <div class="sec-column">
        
             <div class="Contact Us">
-                <a href="#"><p>Contact Us</p></a>
+                <a href="../HTMLFiles/contactus.html"><p>Contact Us</p></a>
             </div>
             <div class="About Us">
                 <a href="../HTMLFiles/aboutus.html" class="footer-about"><p>About Us</p></a>
@@ -116,39 +116,23 @@
         <div class="soc-medias"><a href="#"><img src="../Images/teams-icon-1024x1024-2umqdhm3.png"></a></div>
     </div>
     </footer>
-</body>
-</html>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-        
-
-
-
-
-
-
-
-        
-
-
-
-
-
+    <script>
+        ScrollReveal({
+        distance: '60px',
+        duration: 1800,
+        delay: 400
+    });
     
+    
+    ScrollReveal().reveal('.first-3-images .card-div', {delay: 100, origin: 'left'})
+    ScrollReveal().reveal('.two-small-images .small-image', {delay: 200, origin: 'right'})
+    ScrollReveal().reveal('.two-small-images .small-image2', {delay: 300, origin: 'right'})
+    ScrollReveal().reveal('.second-3-images .card-div', {delay: 300, origin: 'right'})
+    ScrollReveal().reveal('.two-small-images2 .small-image', {delay: 100, origin: 'left'})
+    ScrollReveal().reveal('.two-small-images2 .small-image2', {delay: 200, origin: 'left'})
+
+    </script>
+
 </body>
 </html>
