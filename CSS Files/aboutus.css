@@ -33,7 +33,6 @@
     width: 125%;
     display: flex;
     gap: 5%;
-
 }
 
 .name-text{
@@ -53,15 +52,15 @@
 .bio-img{
     display: flex;
     width: 125%;
-    gap: 6%;
+    gap: 6vw;
     margin-top: 5vh;
-    margin-left: 3.9vw;
+    margin-left: 3.7vw;
     margin-right: 3vw;
 }
 
 .about-img{
     background-image: url(../Images/pexels-yogendra-singh-2480807.jpg);
-    width: 14%;
+    width: 15%;
     height: 45vh;
     overflow: hidden;
     background-size: cover;
