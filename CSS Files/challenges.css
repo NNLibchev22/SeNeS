@@ -17,45 +17,85 @@
     justify-content: space-between;
     margin-top: 1.5vh;
 }
-.first-image{
-    display: flex;
-    justify-content: center;
-    padding: 3.11vh;
-}
-.first-image img{
-    
-    border-radius: 3.11vh;
+
+.card-div{
     width: 46.875vw;
     height: 92vh;
-    
-}
-.first-small-image{
-    display: flex;
-    justify-content: right;
-    padding: 3.11vh;
-    
+    margin: 3.11vh;
 }
 
-.first-small-image img{
+.flip-card{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    transition: all 0.5s ease;
+    transform-style: preserve-3d;
+}
+
+.card-div:hover .flip-card{
+    cursor: pointer;
+    transform: rotateY(180deg);
+}
+
+.front-face,
+.back-face{
+    width: 100%;
+    height: 100%;
     border-radius: 3.11vh;
+    position: absolute;
+    backface-visibility: hidden;
+}
+
+.front-face{
+    background-image: url(../Images/pexels-vicente-vidal-2697050.jpg) ;
+    background-size: cover;
+    overflow: hidden;
+   
+}
+
+.back-face{
+    background-color: #D9D9D9;
+    transform: rotateY(180deg);
+}
+
+.small-image{
     width: 36.45vw;
     height: 43vh;
-    
+    margin: 3.11vh;
 }
 
-.second-small-image{
-    display: flex;
-    justify-content: right;
-    padding: 3.11vh;
-    
+.small-flip{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    transition: all 0.5s ease;
+    transform-style: preserve-3d;
 }
 
-
-.second-small-image img{
+.front,
+.back{
+    width: 100%;
+    height: 100%;
     border-radius: 3.11vh;
-    width: 36.45vw;
-    height: 43vh;
-    
+    position: absolute;
+    backface-visibility: hidden;
+}
+
+.small-image:hover .small-flip{
+    cursor: pointer;
+    transform: rotateY(180deg);
+}
+
+.front{
+    background-image: url(../Images/pexels-vicente-vidal-2697050.jpg) ;
+    background-size: cover;
+    overflow: hidden;
+   
+}
+
+.back{
+    background-color: #D9D9D9;
+    transform: rotateY(180deg);
 }
 
 .second-3-images{
@@ -90,15 +130,5 @@
     height: 43vh;
     
 }
-.third-image{
-    display: flex;
-    justify-content: right;
-    padding: 3.11vh;
-}
-.third-image img{
-    
-    border-radius: 3.11vh;
-    width: 46.875vw;
-    height: 92vh;
-    
-}
+
+
