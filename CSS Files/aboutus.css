@@ -8,9 +8,10 @@
     align-items: center;
     margin-top: 10vh;
     width: 100vw;
-    height: 25vh;
-    background-image: url(../Images/pexels-ron-lach-9034661.jpg);
+    height: 30vh;
+    background-image: url(../Images/img-1.jpg);
     background-size: cover;
+    background-repeat: no-repeat;
     overflow: hidden;
     gap: 1vw;
     filter: brightness(60%);

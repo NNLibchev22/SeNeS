@@ -123,9 +123,12 @@
 }
 .text1{
 	font-size: 3.6vh;
+    width: 43vw;
 	color: #030303;
-	
-	display: block;
+	text-align: justify;
+	display: flex;
+    justify-content: center;
+    margin-left: 2vw;
 }
 
 .title2{
@@ -135,19 +138,27 @@
 
 }
 .text2{
+    width: 34vw; 
+    margin-left: 1.2vw;
 	font-size: 2.9vh;
 	color: #030303;
-	
+    text-align: justify;
 	display: block;
 }
 .small-image2 .front{
     background-image: url(../Images/plasticfree.jpg);
+    filter: brightness(70%);
+    background-size: cover;
 }
 
 .card-div .front-face{
     background-image: url(../Images/led-lightbulb.webp);
+    filter: brightness(70%);
+    background-size: cover;
 }
 .small-image .front{
     background-image: url(../Images/kasturi-laxmi-mohit-uv6lUONd19w-unsplash.jpg);
+    filter: brightness(70%);
+    background-size: cover;
 }
 

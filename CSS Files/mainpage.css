@@ -1,6 +1,10 @@
 @import url(footer.css);
 @import url(navbar.css);
 
+body{
+    overflow-x: hidden;
+}
+
 .slider{
     width: 100%;
     width: 100vw;
@@ -112,10 +116,13 @@
     display: flex;
     font-size: 58px;
     gap: 15px;
+    width: 100vw    ;
+    text-align: justify;
     color: #393939;
     font-weight: bold;
     margin-top: -4.1vh;
     margin-left: 5vh;
+    margin-bottom: 3vh;
 }
 
 .green-word{
