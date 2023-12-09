@@ -47,7 +47,7 @@
 }
 
 .front-face{
-    background-image: url(../Images/pexels-vicente-vidal-2697050.jpg) ;
+    background-image: url(../Images/plasticfree.jpg) ;
     background-size: cover;
     overflow: hidden;
    
@@ -98,7 +98,7 @@
 }
 
 .front{
-    background-image: url(../Images/pexels-vicente-vidal-2697050.jpg) ;
+    background-image: url(../Images/plasticfree.jpg);
     background-size: cover;
     overflow: hidden;
    
@@ -115,4 +115,39 @@
     margin-bottom: -7vh;
 }
 
+.title1{
+    font-size: 4.3vh;
+    color: rgb(84, 95, 68);
+    text-align: center;
+
+}
+.text1{
+	font-size: 3.6vh;
+	color: #030303;
+	
+	display: block;
+}
+
+.title2{
+    font-size: 3.3vh;
+    color: rgb(84, 95, 68);
+    text-align: center;
+
+}
+.text2{
+	font-size: 2.9vh;
+	color: #030303;
+	
+	display: block;
+}
+.small-image2 .front{
+    background-image: url(../Images/plasticfree.jpg);
+}
+
+.card-div .front-face{
+    background-image: url(../Images/led-lightbulb.webp);
+}
+.small-image .front{
+    background-image: url(../Images/kasturi-laxmi-mohit-uv6lUONd19w-unsplash.jpg);
+}
 
