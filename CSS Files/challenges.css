@@ -196,7 +196,7 @@
 .card-div .front-face{
     background-image: url(../Images/led-lightbulb.webp);
     filter: brightness(80%);
-    background-size: cover;
+    background-size: cover;;
 }
 .small-image .front{
     background-image: url(../Images/plant-a-tree-img.jpg);
@@ -220,3 +220,94 @@
     
 }
 
+@media screen and (max-width: 425px){
+    .Title{
+        width: 100vw;
+        font-size: larger;
+        margin: 0;
+        margin-top: 2vh;
+    }
+
+    .first-3-images{
+        width: 100vw;
+        display: block;
+        margin: 0;
+    }
+
+    .flip-card{
+        width: 90vw;
+        height: 50vh;
+    }
+
+    .two-small-images{
+        display: block;
+        justify-content: center;
+        width: 100vw;
+        margin: 0;
+        margin-top: -40vh;
+    }
+
+    .small-image{
+        width: 90vw;
+        height: 50vh;
+    }
+
+    .small-image2{
+        width: 90vw;
+        height: 50vh;
+    }
+
+    .second-3-images{
+        width: 100vw;
+        display: block;
+        margin: 0;
+    }
+
+    .two-small-images2{
+        display: block;
+        justify-content: center;
+        width: 100vw;
+        margin: 0;
+    }
+
+    .flip-card-2{
+        width: 90vw;
+        height: 50vh;
+    }
+
+    .small-image-1, .back{
+        width: 90vw;
+        height: 50vh;
+    }
+
+    .title1{
+        font-size: small;
+    }
+
+    .text1{
+        width: 80vw;
+        height: 50vh;
+        font-size: smaller;
+        margin-left: 4.5vw;
+    }
+
+    .title2{
+        font-size: large;
+    }
+
+    .text2{
+        width: 80vw;
+        height: 50vh;
+        font-size: medium;
+        margin-left: 4.5vw;
+    }
+
+    .small-image-2{
+        width: 90vw;
+        height: 50vh;
+    }
+
+    footer{
+        margin-top: -40vh;
+    }
+}
