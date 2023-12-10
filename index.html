@@ -6,19 +6,27 @@
     <link rel="stylesheet" href="./CSS Files/styles.css">
     <link rel="stylesheet" href="./CSS Files/navbar.css">
     <link rel="stylesheet" href="./CSS Files/mainpage.css">
-    <script src="JS Files/index.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="./JS Files/main.js"></script>
     <script src="https://unpkg.com/scrollreveal"></script>
     <title>SeNeS</title>
 </head>
 <body>
-    <nav class="navbar">
+    <nav class="navbar" id="Nav">
+        <input type="checkbox" id="menu">
+        <label for="menu">
+            <div class="burger">
+        <i class="fa fa-bars" id="burger-menu"></i>
+    </div>
+        </label>
         <div class="Logo"><a href="#"><img src="./Images/SeNeS-logos_1_-removebg-preview.png" alt="SeNeS" class="logo"></a></div>
-            <div class="pages">
-             <a href="./index.html" class="nav-item">HOME</a>    
-             <a href="./HTMLFiles/challenges.html" class= "nav-item">CHALLENGES</a>
-             <a href="./HTMLFiles/aboutus.html" class="nav-item">ABOUT</a>
-            <a href="./HTMLFiles/contactus.html" class="nav-item">CONTACT</a>
+            <ul class="pages">
+             <li><a href="./index.html" class="nav-item">HOME</a></li> 
+             <li><a href="./HTMLFiles/challenges.html" class= "nav-item">CHALLENGES</a></li>
+             <li><a href="./HTMLFiles/aboutus.html" class="nav-item">ABOUT</a></li>
+            <li><a href="./HTMLFiles/contactus.html" class="nav-item">CONTACT</a></li>
         </div>
+    
     </nav>
 <div class="slider">
     <div class="slides">

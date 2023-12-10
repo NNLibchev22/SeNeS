@@ -10,10 +10,8 @@ footer{
     display: flex;
     justify-content: center;
     gap: 12.29vh;
-    font-size: 20px;
+    font-size: 3.33vh;
     margin-top: 24.59vh;
-    
-
 }
 
 .first-column{
@@ -93,4 +91,88 @@ hr{
     background-color: black;
     width: 65vw;
     height: 0.25vh;
+}
+
+@media screen and (max-width: 425px){
+
+    .first-part{
+        display: block;
+        flex-direction: column;
+    }
+
+    .footer-logo{
+        height: 10vh;
+        width: 100vw;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+}
+
+    .footer-logo img{
+        height: 30vh;
+        width: 50vw;
+        margin-left: 0;
+        margin-top: 0;
+    }
+
+    .sentence{
+        margin-top: -2vh;
+        width: 100vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }   
+
+    .first-column{
+        display: block;
+        flex-direction: column;
+    }
+
+    .sec-column{
+        display: block;
+        justify-content: center;
+        align-items: center;
+        gap: 15vw;
+        margin: 0;
+        margin-left: 8vw;
+        width: 100vw;
+    }
+
+    .third-column{
+        display: block;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 25vw;
+        margin: 0;
+        width: 100vw;
+        margin-left: 8vw;
+        margin-bottom: 4vh;
+    }  
+
+    hr{
+        display: none;
+    }
+
+    .footer-challenges p{
+        margin-top: 3vh;
+    }
+
+    .footer-about p{
+        margin-top: 3.5vh;
+    }
+
+    .sec-part{
+        display: block;
+        flex-direction: column;
+        margin-left: 80vw;
+        margin-top: -17vh;
+        gap: 5vh;
+    }
+
+    .soc-medias{
+        width: 12vw;
+        height: 7vh;
+        margin-bottom: 1vh;
+    }
 }

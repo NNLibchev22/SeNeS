@@ -18,7 +18,7 @@
 }
 
 .start-pic p{
-    font-size: 50px;
+    font-size: 8.333vh;
 }
 
 .normal-word{
@@ -39,7 +39,7 @@
     display: flex;
     width: 120%;
     margin-top: 8vh;
-    font-size: 20px;
+    font-size: 3.333vh;
     gap: 10%;
     margin-left: 3%;
 }
@@ -60,7 +60,7 @@
     width: 25%;
     text-align: justify;
     margin-left: 1.5vw;
-    font-size: 20px;
+    font-size: 3.333vh;
 }
 
 .text-name{
@@ -102,7 +102,7 @@
     margin-left: 3vw;
     margin-right: 3vw;
     margin-bottom: 1vw;
-    font-size: 25px;
+    font-size: 4.166vh;
     border-radius: 50%;
     border: none;
     background-color: #D9D9D9;
@@ -116,7 +116,7 @@
     margin-right: 3vw;
     margin-bottom: 1vw;
     border-radius: 50%;
-    font-size: 25px;
+    font-size: 4.166vh;
     border: none;
     background-color: #D9D9D9;
     transition: 0.3s ease-in-out;
