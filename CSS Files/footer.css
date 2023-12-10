@@ -95,6 +95,11 @@ hr{
 
 @media screen and (max-width: 425px){
 
+    footer{
+        width: 100vw;
+        height: 90vh;
+    }
+
     .first-part{
         display: block;
         flex-direction: column;
@@ -109,8 +114,8 @@ hr{
 }
 
     .footer-logo img{
-        height: 30vh;
-        width: 50vw;
+        height: 35vh;
+        width: 35vh;
         margin-left: 0;
         margin-top: 0;
     }
@@ -171,7 +176,7 @@ hr{
     }
 
     .soc-medias{
-        width: 12vw;
+        width: 7vh;
         height: 7vh;
         margin-bottom: 1vh;
     }
