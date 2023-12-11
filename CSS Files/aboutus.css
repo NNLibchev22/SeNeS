@@ -53,14 +53,16 @@
 .bio-text{
     width: 125%;
     display: flex;
-    gap: 5%;
+   gap: 5%;
+    justify-content: space-between;
 }
 
 .name-text{
     width: 25%;
-    text-align: justify;
+    text-align: center;
     margin-left: 1.5vw;
-    font-size: 3.333vh;
+    font-size: 3.5vh;
+    word-spacing: 0;
 }
 
 .text-name{
@@ -77,6 +79,7 @@
     margin-top: 5vh;
     margin-left: 3.7vw;
     margin-right: 3vw;
+    
 }
 
 .about-img{
@@ -86,6 +89,7 @@
     overflow: hidden;
     background-size: cover;
     border-radius: 5%;
+    
 }
 
 .slide-buttons{
@@ -130,4 +134,9 @@
 .prev:hover{
     transform: scale(1.1);
     cursor: pointer;
+}
+.image{
+    object-fit: cover;
+    width: 100%;
+  height: 100%;
 }
