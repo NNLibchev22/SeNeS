@@ -112,10 +112,10 @@
 .button{
     width: 40vw;
     height: 7vh;
-    margin-left: 5vw;
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 43vh;
 }
 
 textarea{
@@ -226,4 +226,75 @@ footer{
 
 .sentence{
     font-size: 3.333;
+}
+
+@media screen and (max-width: 425px){
+    .starting-img{
+        margin: 0;
+    }
+
+    .Sentence{
+        width: 100%;
+        font-size: 3.333vh;
+    }
+
+    .contactus-page{
+        display: block;
+    }
+
+    .button{
+        margin-top: 45vh; 
+        margin-left: 25vw;
+    }
+
+    .submit{
+        width: 30vw;
+    }
+
+    .info{
+        width: 90vw;
+    }
+
+    .Surname .Info{
+        margin-top: -0.3vh;
+    }
+
+    .Email .Info{
+        margin-top: -0.7vh;
+    }
+
+    .Surname input:focus ~ label,
+    .Surname input:valid ~ label{
+    margin-top: -4vh;
+    font-size: 2.5vh;
+}
+
+    .Email input:focus ~ label,
+    .Email input:valid ~ label{
+    margin-top: -4.3vh;
+    font-size: 2.5vh;
+}
+
+    .Message{
+        min-width: 89vw;
+        max-width: 90vw;
+    }
+
+    .details{
+        width: 100vw;
+    }
+
+    .address .mail{
+        font-size: 3.333vh;
+    }
+
+    .Phone .phone{
+        font-size: 3.333vh;
+
+    }
+
+    .email .mail{
+        font-size: 3.333vh;
+
+    }
 }
