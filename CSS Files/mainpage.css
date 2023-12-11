@@ -290,7 +290,7 @@ body{
         flex-direction: column;
         justify-content: center;
         align-items: center;    
-        margin-top: 0vh;
+        margin-top: 10vh;
         width: 100vw;
         height: 180vh;
     }

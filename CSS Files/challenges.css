@@ -237,6 +237,7 @@
     .flip-card{
         width: 90vw;
         height: 50vh;
+        margin-left: -1.5vw;
     }
 
     .two-small-images{
@@ -250,11 +251,13 @@
     .small-image{
         width: 90vw;
         height: 50vh;
+        margin-left: 5vw;
     }
 
     .small-image2{
         width: 90vw;
         height: 50vh;
+        margin-left: 5vw;
     }
 
     .second-3-images{
@@ -273,11 +276,13 @@
     .flip-card-2{
         width: 90vw;
         height: 50vh;
+        margin-left: -1.5vw;
     }
 
     .small-image-1, .back{
         width: 90vw;
         height: 50vh;
+        margin-left: 5vw;
     }
 
     .title1{
@@ -305,6 +310,8 @@
     .small-image-2{
         width: 90vw;
         height: 50vh;
+        margin-left: 5vw;
+
     }
 
     footer{

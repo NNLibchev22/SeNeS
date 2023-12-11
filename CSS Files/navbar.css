@@ -21,7 +21,7 @@ header{
 }
 
 .navbar{
-    margin-right: 7vw;
+    margin-right: 11vw;
 }
 
 .pages{
@@ -47,7 +47,7 @@ header{
     display: flex;
     width: 20vh;
     height: 10vh;
-    margin-left: -23vw;
+    margin-left: ;
 }
 
 .lang,
@@ -105,12 +105,14 @@ header{
         height: 100vh;
     }
 
-    .navbar{
+    header{
         width: 100vw;
         height: 10vh;
         display: flex;
         position: relative;
     }
+
+    
 
     .nav-item{
         color: white;
@@ -127,18 +129,19 @@ header{
         width: 60vw;
         height: 10vh;
         object-fit: cover;
-        margin-left: -10vw;
+        margin-left: -5vw;
     }
 
     .pages{
-        width: 90vw;
-        margin-top: 103vh;
+        width: 90.5vw;
         gap: 5vw;
+        margin-top: 0;
+        display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
         position: fixed;
-        margin-left: -100%;
+        margin-left: -194vw;
         height: 90vh;
         transition: all 0.3s ease;
         background-color: rgba(0, 0, 0, 0.5);
@@ -153,15 +156,14 @@ header{
         display: none;
     }
     
-    #menu:checked ~ ul{
-        margin-left: 0;
+    #menu:checked ~ .pages{
+        margin-left: -82vw;
     }
 
     #burger-menu{
         display: flex;
         position: absolute;
         width: 7vw;
-        margin-left: 85vw;
         cursor: pointer;
         font-size: 30px;
     }
@@ -170,5 +172,8 @@ header{
         align-items: center;
         width: 7vw;
         height: 10vh;
+    }
+    .icons{
+        display: none;
     }
 }
