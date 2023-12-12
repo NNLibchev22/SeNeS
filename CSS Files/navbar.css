@@ -1,4 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@500;550;600&family=Inter:wght@500&display=swap');
+
+*{
+    font-family: 'Exo 2', sans-serif;
+
+}   
 
 header{
     background: transparent;
@@ -13,11 +19,10 @@ header{
     position: fixed;
     top: 0;
     transition: all 0.4s ease;
-
 }
 
 .nav-scrolled{
-    background: rgb(58, 57, 57);
+    background: rgba(42, 41, 41, 0.541);
     display: flex;
     align-items: center;
     color: black;
@@ -28,24 +33,28 @@ header{
     justify-content: space-between;
     position: fixed;
     top: 0;
-    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+    box-shadow: 0px 0px 25px rgba(66, 66, 66, 0.541);
     transition: all 0.4s ease;
 }
 
 .icons{
     display: flex;
     gap: 3vh;
-    margin-right: 2vw;
+    margin-right: 6.5vw;
 }
 
 .navbar{
     margin-right: 10vw;
+    font-family: 'Open Sans', sans-serif;
+
 }
 
 .pages{
     display: flex;
     gap: 5vh;
     color: white;
+    font-family: 'Open Sans', sans-serif;
+
 }
 
 #menu{
@@ -65,6 +74,7 @@ header{
     display: flex;
     width: 20vh;
     height: 10vh;
+    margin-left: 5vw;
 }
 
 .lang i,
@@ -96,7 +106,7 @@ header{
 
 .pages a::after{
     content: "";
-    background-color: black;
+    background-color: whitesmoke;
     width: 0;
     margin-bottom: -0.81vh;
     height: 0.33vh;

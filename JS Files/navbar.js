@@ -2,7 +2,7 @@ const header = document.querySelector('header');
 const stop = document.querySelector('.slider')
 
 const sectionOneOptions = {
-    rootMargin: " -150px 0px 0px 0px"
+    rootMargin: " -100px 0px 0px 0px"
 };
 
 const stopOneObserver = new IntersectionObserver
