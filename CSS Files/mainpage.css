@@ -249,7 +249,7 @@ body{
     }
 
     .manual-nav{
-        margin-top: -55vh;
+        margin-top: -75vh;
     }
 
     .auto-nav{
@@ -271,6 +271,10 @@ body{
 
     .biggest-threats p{
         margin-bottom: 7vh;
+    }
+
+    .big-text{
+        display: none;
     }
 
     .forest-fires{
@@ -318,7 +322,7 @@ body{
         flex-direction: column;
         justify-content: center;
         align-items: center;    
-        margin-top: 10vh;
+        margin-top: 20vh;
         width: 100vw;
         height: 180vh;
     }
