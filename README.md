@@ -5,7 +5,7 @@
  - [Technologies used](#technologies)
  
 ##  Description <a name="description"></a>
-This is a site which .
+This is a site which inform people about the environment and shows them different ways to help sustain it.
  
 ##  Collaborators  <a name="collaborators"></a>
 - [Nedyalko Libchev](https://github.com/NNLibchev22) - Scrum Trainer
