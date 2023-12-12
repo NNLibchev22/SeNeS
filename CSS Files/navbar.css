@@ -79,7 +79,7 @@ header{
 
 .lang i,
 .dark i{
-    font-size: 3.5vh;
+    font-size: 4vh;
     color: white;
     text-decoration: none;
 }
@@ -139,6 +139,8 @@ header{
         height: 10vh;
         display: flex;
         position: relative;
+        box-shadow: 0px 0px 25px rgba(66, 66, 66, 0.541);
+        background: rgba(42, 41, 41, 0.541);
     }
 
     
@@ -186,7 +188,7 @@ header{
     }
     
     #menu:checked ~ .pages{
-        margin-left: -82vw;
+        margin-left: -83vw;
     }
 
     #burger-menu{

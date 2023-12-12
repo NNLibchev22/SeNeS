@@ -230,11 +230,13 @@ footer{ /* The footer where is aligned*/
 @media screen and (max-width: 425px){ /* Max width of media screen is 425px*/
     .starting-img{ 
         margin: 0;
+        height: 20vh;
     }
 
     .Sentence{ /* Size of the first sentecne*/
         width: 100%;
         font-size: 3.333vh;
+        margin-top: 5vh;
     }
 
     .contactus-page{ /* The boxed to be displayed as a block*/
@@ -255,22 +257,22 @@ footer{ /* The footer where is aligned*/
     }
 
     .Surname .Info{ /* Surname info and how is aligned*/
-        margin-top: -0.3vh;
+        margin-top: -1vh;
     }
 
     .Email .Info{ /* Email info and how is aligned*/
-        margin-top: -0.7vh;
+        margin-top: -2.3vh;
     }
 
     .Surname input:focus ~ label, /* Somekind of animation about text box*/
     .Surname input:valid ~ label{
-    margin-top: -4vh;
+    margin-top: -5vh;
     font-size: 2.5vh;
 }
 
     .Email input:focus ~ label,/* Somekind of animation about text box*/
     .Email input:valid ~ label{
-    margin-top: -4.3vh;
+    margin-top: -6vh;
     font-size: 2.5vh;
 }
 
