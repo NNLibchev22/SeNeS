@@ -1,43 +1,43 @@
 @import url(footer.css);
 @import url(navbar.css);
 
-body{
+body{ /* That shows the body of the whole page*/
     overflow-x: hidden;
 }
 
-.slider{
+.slider{ /* That shows the slider where are 4 images*/
     width: 100%;
     width: 100vw;
     overflow: hidden;
 }
 
-.slider img{
+.slider img{ /* That shows the images in slider and their specifics*/
     width: 100vw;
     height: 80vh;
     filter: brightness(50%);
 }
 
-.slides{
+.slides{ /* All slides together*/
     width: 500%;
     height: 80vh;
     display: flex;
 }
 
-.slides input{
+.slides input{ /* Display none of the slides */
     display: none;
 }
 
-.first-slide{
+.first-slide{ /* Specicifics of the first slide*/
     width: 20%;
     transition: 1s;
 }
 
-.slide img{
+.slide img{ /*Specifics of the image*/
     width: 100vw;
     height: 80vh;
 }
 
-.manual-nav{
+.manual-nav{ /* This is about the 4 four white things and when you drag the mouse to them they become white*/
     position: absolute;
     width: 100vw;
     margin-top: -6.5vh;
@@ -45,7 +45,7 @@ body{
     justify-content: center;
 }
 
-.manual-btn{
+.manual-btn{ /* This is about the 4 four white things and when you drag the mouse to them they become white*/
     border: 2px solid white;
     padding: 0.8vh;
     border-radius: 10px;
@@ -77,7 +77,7 @@ body{
     margin-left: -60%;
 }
 
-.auto-nav{
+.auto-nav{ /* This is about the 4 four white things and when you click them they become white*/
     position: absolute;
     width: 100vw;
     margin-top: 73.5vh;
@@ -85,34 +85,34 @@ body{
     justify-content: center;
 }
 
-.auto-nav div{
+.auto-nav div{ /* This is about the 4 four white things and when you click them they become white*/
     border: 2px solid white;
     padding: 0.8vh;
     border-radius: 10px;
     transition: 0.2s;
 }
 
-.auto-nav div:not(:last-child){
+.auto-nav div:not(:last-child){ /* This is about the 4 four white things and their postition*/
     margin-right: 6.6vh;
 }
 
-#radio1:checked ~ .auto-nav .auto-btn1{
+#radio1:checked ~ .auto-nav .auto-btn1{ /* Background color of each of them */
     background-color: white;
 }
 
-#radio2:checked ~ .auto-nav .auto-btn2{
+#radio2:checked ~ .auto-nav .auto-btn2{ /* Background color of each of them */
     background-color: white;
 }
 
-#radio3:checked ~ .auto-nav .auto-btn3{
+#radio3:checked ~ .auto-nav .auto-btn3{ /* Background color of each of them */
     background-color: white;
 }
 
-#radio4:checked ~ .auto-nav .auto-btn4{
+#radio4:checked ~ .auto-nav .auto-btn4{ /* Background color of each of them */
     background-color: white;
 }
 
-.biggest-threats{
+.biggest-threats{ /* This is the big title*/
     display: flex;
     font-size: 9.666vh;
     gap: 2.5vh;
@@ -125,11 +125,11 @@ body{
     margin-bottom: 3vh;
 }
 
-.green-word{
+.green-word{ /* This is for the word 'THREATHS' */
     color: #A1C617;
 }
 
-.forest-fires{
+.forest-fires{ /* This is the parent of the first image and text */
     display: flex;
     justify-content: center;
     gap: 3.2vh;
@@ -139,21 +139,21 @@ body{
     margin-top: -6.6vh;
 }
 
-.forest-fires img{
+.forest-fires img{  /* This the image and its position */
     border-radius: 30px;
     width: 98.3vh;
     height: 60vh;
     margin-left: 2.45vh;
 }
 
-.forest-fires p{
+.forest-fires p{ /* This the text and its position and size */
     margin-top: 0vh;
     width: 40vw;
     height: 60vh;
     text-align: justify; 
 }
 
-.triple-img{
+.triple-img{ /* All three small images combined*/
     display: flex;
     justify-content: center;
     align-items: center;
@@ -163,7 +163,7 @@ body{
     height: 60vh;
 }
 
-.item-img img{
+.item-img img{ /* Pictures and its positions */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -173,14 +173,14 @@ body{
     height: 30vh;
 }
 
-.item-img p{
+.item-img p{ /* Text and how is aligned*/
     margin-left: 0vh;
     width: 50vh;
     text-align: justify;
 }
 
 
-.quote-div{
+.quote-div{ /* The quote and a background picture*/
     background-image: url(../Images/pexels-ákos-szabó-440731.jpg);
     background-size: cover;
     overflow: hidden;
@@ -192,7 +192,7 @@ body{
     filter: brightness(50%);
 }
 
-.white-box{
+.white-box{ /* The box around the quote*/
     background-color: rgba(255,255,255,0.6);
     display: flex;
     align-items: center;
@@ -204,32 +204,32 @@ body{
     margin-top: 20vh;
 }
 
-.text-quote{
+.text-quote{  /* Font size of the text in quote*/
     font-size: 35px;
 }
 
-@media screen and (max-width: 425px){
-    .slider{
+@media screen and (max-width: 425px){ 
+    .slider{ /* Slider and its size*/
         height: 30vh;
         width: 100vw;
         overflow: hidden;
         margin: 0;
     }
     
-    .slider img{
+    .slider img{ /* First 4 images and their size*/
         height: 30vh;
         width: 100vw;
     }
 
-    .manual-nav{
+    .manual-nav{ /* This is about the 4 four white things and when you drag the mouse to them they become white*/
         margin-top: -55vh;
     }
 
-    .auto-nav{
+    .auto-nav{ /* This is about the 4 four white things and when you click them they become white*/
         margin-top: 25vh;
     }
 
-    .biggest-threats{
+    .biggest-threats{   /* Text of the quote*/
         display: flex;
         justify-content: center;
         align-items: center;
@@ -242,11 +242,11 @@ body{
         width: 100vw;
     }
 
-    .biggest-threats p{
+    .biggest-threats p{ /* This the text and its position*/
         margin-bottom: 7vh;
     }
 
-    .forest-fires{
+    .forest-fires{ /* Parent div of the image and text*/
         display: block;
         justify-content: center;
         align-content: center;
@@ -258,13 +258,13 @@ body{
         margin-left: 0;
     }
 
-    .forest-img{
+    .forest-img{ /* The forest image*/
         width: 100vw;
         display: flex;
         justify-content: center;
     }
     
-    .forest-fires img{
+    .forest-fires img{ /* The forest image again*/
         border-radius: 20px;
         width: 90vw;
         height: 25vh;
@@ -272,12 +272,12 @@ body{
         margin-bottom: 2vh;
     }
     
-    .forest-p{
+    .forest-p{ /* The forest text*/
         width: 100vw;
         display: flex;
         justify-content: center;
     }
-    .forest-fires p{
+    .forest-fires p{ /* The forest text again*/
         margin-top: 0vh;
         width: 90vw;
         height: 25vh;
@@ -286,7 +286,7 @@ body{
         display: flex;
     }
 
-    .triple-img{
+    .triple-img{ /* The 3 small images */
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -296,32 +296,32 @@ body{
         height: 180vh;
     }
     
-    .item{
+    .item{ /* Parent div of a text and an image*/
         width: 100vw;
         display: flex;
         justify-content: center;
     }
 
-    .item-p{
+    .item-p{ /* Text and how its size*/
         width: 100vw;
         display: flex;
         justify-content: center;
     }
 
-    .item-img img{
+    .item-img img{  /* Image and how is aligned*/
         border-radius: 30px;
         margin-left: 0;
         width: 25vh;
         height: 25vh;
     }
     
-    .item-img p{
+    .item-img p{ /* Text and how is aligned*/
         margin-left: 0vh;
         width: 90vw;
         text-align: justify;    
     }
 
-    .big-quote{
+    .big-quote{ /* The quote and its size*/
         width: 100vw;
         display: flex;
         justify-content: center;
@@ -329,7 +329,7 @@ body{
         margin-top: 0;
     }
 
-    .quote-div{
+    .quote-div{ /* The quote and its position*/
         display: flex;
         justify-content: center;
         align-items: center;
@@ -339,14 +339,14 @@ body{
         margin: 0;
     }
     
-    .white-box{
+    .white-box{ /* White box around the quote*/
         width: 60vw;
         height: 15vh; 
         border-radius: 20px;
         margin: 0;
     }
     
-    .text-quote{
+    .text-quote{ /* Font size of the quote text*/
         font-size: small;
     }
 }

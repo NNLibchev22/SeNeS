@@ -1,8 +1,8 @@
 @import url(navbar.css);
 @import url(footer.css);
-@import url(styles.css);
+@import url(styles.css); /* We imported the navbar, footer, and styles css*/
 
-.starting-img{
+.starting-img{ /* The first background-image*/
     background-image: url(../Images/pexels-vicente-vidal-2697050.jpg);
     background-size: cover;
     margin-top: 10vh;
@@ -12,7 +12,7 @@
     width: 100%;
 }
 
-.Sentence{
+.Sentence{ /* The first sentence and its size and position*/
     margin-top: 17vh;
     display: flex;
     width: 100%;
@@ -24,15 +24,15 @@
     gap: 2vw;
 }
 
-.contactus{
+.contactus{ /* 'CONTACT' word*/
     color: #393939;
 }
 
-.contactus-green{
+.contactus-green{ /* 'US' word*/
     color: #A1C617;
 }
 
-.messages{
+.messages{ /* The big message*/
     margin-top: 7vh;
     width: 50vw;
     height: 83vh;
@@ -40,7 +40,7 @@
     position: relative;
 }
 
-.info {
+.info { /* Information */
     width: 40vw;
     height: 7vh;
     margin-top: 3vh;
@@ -49,7 +49,7 @@
     font-size: 3.333vh;
 }
 
-.Fname label{
+.Fname label{ /* First name textbox*/
     position: absolute;
     top: 5vh;
     left: 1vw;
@@ -58,7 +58,7 @@
     padding: 0 5px;
 }
 
-.Surname label{
+.Surname label{ /* Surname textbox*/
     position: absolute;
     top: 18.8vh;
     left: 1vw;
@@ -67,7 +67,7 @@
     padding: 0 0.8333vh;
 }
 
-.Email label{
+.Email label{ /* Email textbox*/
     position: absolute;
     top: 32.6vh;
     left: 1vw;
@@ -76,7 +76,7 @@
     padding: 0 5px;
 }
 
-.Message {
+.Message { /* Big message box*/
     position: absolute;
     top: 43.4vh;
     font-size: 3vh;
@@ -92,24 +92,24 @@
 }
 
 .Fname input:focus ~ label,
-.Fname input:valid ~ label{
+.Fname input:valid ~ label{ /* Somekind of animation about first text box*/
     margin-top: -3.5vh;
     font-size: 2.5vh;
 }
 
-.Surname input:focus ~ label,
+.Surname input:focus ~ label,/* Somekind of animation about second text box*/
 .Surname input:valid ~ label{
     margin-top: -3.5vh;
     font-size: 2.5vh;
 }
 
-.Email input:focus ~ label,
+.Email input:focus ~ label, /* Somekind of animation about third text box*/
 .Email input:valid ~ label{
     margin-top: -3.5vh;
     font-size: 2.5vh;
 }
 
-.button{
+.button{ /* The button and its specifics*/
     width: 40vw;
     height: 7vh;
     display: flex;
@@ -118,16 +118,16 @@
     margin-top: 43vh;
 }
 
-textarea{
+textarea{ /* The text*/
     border: 1px solid black;
     color: black;
 }
 
-::placeholder{
+::placeholder{ /* Box around*/
     color: black;
 }
 
-.submit{
+.submit{ /* Submit button*/
     height: 6vh;
     width: 10vw;
     font-size: 2.5vh;
@@ -135,165 +135,165 @@ textarea{
     border: 1px solid black;
 }
 
-.submit:hover{
+.submit:hover{ /* Red when you want to click submit*/
     border: 1px solid red;
     cursor: pointer;
     color: red;
 }
 
-.contactus-page{
+.contactus-page{ /* Parent div of all textboxes*/
     display: flex;
 }
 
-.address{
+.address{ /* The address*/
     display: flex;
 }
 
-.Phone{
-    display: flex;
-    margin-top: 3vh;
-}
-
-.email{
+.Phone{ /* The phone*/
     display: flex;
     margin-top: 3vh;
 }
 
-.home-div{
+.email{ /* The email*/
+    display: flex;
+    margin-top: 3vh;
+}
+
+.home-div{ /* Address div*/
     margin-left: -0.5vw;
 }
 
-.mail-div{
+.mail-div{  /* Email div*/
     margin-left: -0.5vw;
 }
 
-#home-em{
+#home-em{ /* Text about address his size and postition*/
     font-size: 35px;
     margin-top: 4.5vh;
     margin-right: 2.5vw;
 }
 
-#phone-em{
+#phone-em{ /* Text about phone his size and postition*/
     font-size: 35px;
     margin-top: 5vh;
     margin-right: 2.5vw;    
 }
 
-#letter-em{
+#letter-em{ /* Text about email his size and postition*/
     font-size: 30px;
     margin-top: 5vh;
     margin-right: 2.5vw;    
 }
 
-.information{
+.information{ /* Text about more info*/
     margin-left: 10vw;
     margin-top: 13vh;
 }
 
-.kv{
+.kv{ /* Text about district*/
     font-size: 4.166vh;
 }
 
-.country{
+.country{ /* Text about country*/
     font-size: 2.833vh;
     color: grey;
     margin-top: -2vh;
 }
 
-.phone{
+.phone{ /* Text about phone*/
     font-size: 4.166vh;
 }
 
-.time{
+.time{ /* Text about time*/
     font-size: 2.833vh;
     color: grey;
     margin-top: -2vh;
 }
 
-.mail{
+.mail{ /* Text about email*/
     font-size: 4.166vh;
 }
 
-.mail-us{
+.mail-us{ /* Text about mail us*/
     font-size: 2.833vh;
     color: grey;
     margin-top: -2vh;
 }
 
-footer{
+footer{ /* The footer where is aligned*/
     margin-top: -10vh;
 }
 
-.sentence{
+.sentence{ /* A sentence and its font-size*/
     font-size: 3.333;
 }
 
-@media screen and (max-width: 425px){
-    .starting-img{
+@media screen and (max-width: 425px){ /* Max width of media screen is 425px*/
+    .starting-img{ 
         margin: 0;
     }
 
-    .Sentence{
+    .Sentence{ /* Size of the first sentecne*/
         width: 100%;
         font-size: 3.333vh;
     }
 
-    .contactus-page{
+    .contactus-page{ /* The boxed to be displayed as a block*/
         display: block;
     }
 
-    .button{
+    .button{ /* How is the button aligned*/
         margin-top: 45vh; 
         margin-left: 25vw;
     }
 
-    .submit{
+    .submit{ /*Submit text*/
         width: 30vw;
     }
 
-    .info{
+    .info{ /* All info*/
         width: 90vw;
     }
 
-    .Surname .Info{
+    .Surname .Info{ /* Surname info and how is aligned*/
         margin-top: -0.3vh;
     }
 
-    .Email .Info{
+    .Email .Info{ /* Email info and how is aligned*/
         margin-top: -0.7vh;
     }
 
-    .Surname input:focus ~ label,
+    .Surname input:focus ~ label, /* Somekind of animation about text box*/
     .Surname input:valid ~ label{
     margin-top: -4vh;
     font-size: 2.5vh;
 }
 
-    .Email input:focus ~ label,
+    .Email input:focus ~ label,/* Somekind of animation about text box*/
     .Email input:valid ~ label{
     margin-top: -4.3vh;
     font-size: 2.5vh;
 }
 
-    .Message{
+    .Message{ /* Big message box*/
         min-width: 89vw;
         max-width: 90vw;
     }
 
-    .details{
+    .details{ /* Text about details and its size*/
         width: 100vw;
     }
 
-    .address .mail{
+    .address .mail{ /* Text about address, mail and its font-size*/ 
         font-size: 3.333vh;
     }
 
-    .Phone .phone{
+    .Phone .phone{ /* Text about phone and its font-size*/
         font-size: 3.333vh;
 
     }
 
-    .email .mail{
+    .email .mail{ /* Text about email and its font-size*/
         font-size: 3.333vh;
 
     }
