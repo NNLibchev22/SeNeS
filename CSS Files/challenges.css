@@ -2,7 +2,7 @@
 @import url(styles.css);
 @import url(footer.css);
 
-header{
+header{ /* This shows the header and how is aligned*/
     background: rgba(42, 41, 41, 0.541);
     display: flex;
     align-items: center;
@@ -18,7 +18,7 @@ header{
     transition: all 0.4s ease;
 }
 
-.Title{
+.Title{ /*This is the title which is the first text of the page*/
     display: flex;
     margin-top: 7vh;
     align-items: center;
@@ -27,31 +27,31 @@ header{
     color: #393939;    
 }
 
-.first-3-images{
+.first-3-images{ /* This is a div for the first 3 images*/
     display: flex;
     justify-content: space-between;
     margin-top: 1.5vh;
 }
 
-.card-div{
+.card-div{ /* First image and its size*/
     width: 46.875vw;
     height: 92vh;
     margin: 3.11vh;
 }
-.card-div-2{
+.card-div-2{ /* Second image and its size*/
     width: 46.875vw;
     height: 92vh;
     margin: 3.11vh;
 }
 
-.flip-card{
+.flip-card{ /* Transition that allow the first image to flip*/
     width: 100%;
     height: 100%;
     position: relative;
     transition: all 0.7s ease;
     transform-style: preserve-3d;
 }
-.flip-card-2{
+.flip-card-2{ /* Transition that allow the second image to flip*/
     width: 100%;
     height: 100%;
     position: relative;
@@ -61,7 +61,7 @@ header{
 
 
 
-.card-div:hover .flip-card{
+.card-div:hover .flip-card{ /* Rotate transformation for the first card*/
     cursor: pointer;
     transform: rotateY(180deg);
 }
@@ -73,7 +73,7 @@ header{
 
 
 .front-face,
-.back-face{
+.back-face{ /* Front and back face of the images*/
     width: 100%;
     height: 100%;
     border-radius: 3.11vh;
@@ -93,13 +93,13 @@ header{
     transform: rotateY(180deg);
 }
 
-.small-image{
+.small-image{ /* The size and positon of small image*/
     width: 36.45vw;
     height: 43vh;
     margin: 3.11vh;
 }
 
-.small-image2{
+.small-image2{  /* The size and positon of second small image*/
     width: 36.45vw;
     height: 43vh;
     margin: 3.11vh;
@@ -109,13 +109,13 @@ header{
     height: 43vh;
     margin: 3.11vh;
 }
-.small-image-2{
+.small-image-2{ /* The size and positon of third small image*/
     width: 36.45vw;
     height: 43vh;
     margin: 3.11vh;
 }
 
-.small-flip{
+.small-flip{  /* The animation of smalls images*/
     width: 100%;
     height: 100%;
     position: relative;
@@ -124,7 +124,7 @@ header{
 }
 
 .front,
-.back{
+.back{ /* Front and back face of the cards*/
     width: 100%;
     height: 100%;
     border-radius: 3.11vh;
@@ -132,53 +132,53 @@ header{
     backface-visibility: hidden;
 }
 
-.small-image:hover .small-flip{
+.small-image:hover .small-flip{ /*Rotation effect of small image*/
     cursor: pointer;
     transform: rotateY(180deg);
 }
 
-.small-image2:hover .small-flip{
+.small-image2:hover .small-flip{ /*Rotation effect of second small image*/
     cursor: pointer;
     transform: rotateY(180deg);
 }
 
-.small-image-1:hover .small-flip{
+.small-image-1:hover .small-flip{ /*Rotation effect of third small image*/
     cursor: pointer;
     transform: rotateY(180deg);
 }
 
-.small-image-2:hover .small-flip{
+.small-image-2:hover .small-flip{ /*Rotation effect of fourth small image*/
     cursor: pointer;
     transform: rotateY(180deg);
 }
 
 
 
-.front{
-    
+.front{ /* The front of the images*/
+     
     background-size: cover;
     overflow: hidden;
    
 }
 
-.back{
+.back{ /* The back of the images*/
     background-color: #D9D9D9;
     transform: rotateY(180deg);
 }
 
-.second-3-images{
+.second-3-images{  /* Parent div for all 3 second images*/
     display: flex;
     justify-content: space-between;
     margin-bottom: -7vh;
 }
 
-.title1{
+.title1{ /* Title of the 2 big images*/
     font-size: 4.3vh;
     color: rgb(84, 95, 68);
     text-align: center;
 
 }
-.text1{
+.text1{ /* Text of the 2 big images*/
 	font-size: 3.6vh;
     width: 43vw;
 	color: #030303;
@@ -188,13 +188,13 @@ header{
     margin-left: 2vw;
 }
 
-.title2{
+.title2{ /* Title of the 4 small images*/
     font-size: 3.3vh;
     color: rgb(84, 95, 68);
     text-align: center;
 
 }
-.text2{
+.text2{  /* Text of the 4 small images*/
     width: 34vw; 
     margin-left: 1.2vw;
 	font-size: 2.9vh;
@@ -208,34 +208,34 @@ header{
     background-size: cover;
 }
 
-.card-div .front-face{
+.card-div .front-face{ /*Front of the second small image*/
     background-image: url(../Images/led-lightbulb.webp);
     filter: brightness(80%);
     background-size: cover;;
 }
-.small-image .front{
+.small-image .front{ /*Front of the first big image*/
     background-image: url(../Images/plant-a-tree-img.jpg);
     filter: brightness(80%);
     background-size: cover;
 }
-.small-image-1 .front{
+.small-image-1 .front{ /*Front of the first small image*/
     background-image: url(../Images/travel.avif);
     filter: brightness(80%);
     background-size: cover;
 }
-.small-image-2 .front{
+.small-image-2 .front{ /*Front of the third small image*/
     background-image: url(../Images/water.avif);
     filter: brightness(80%);
     background-size: cover;
 }
-.card-div-2 .front-face{
+.card-div-2 .front-face{  /*Front of the second big image*/
     background-image: url(../Images/world.jpg);
     filter: brightness(80%);
     background-size: cover;
     
 }
 
-@media screen and (max-width: 425px){
+@media screen and (max-width: 425px){ /* This is for responsive page*/
     .Title{
         width: 100vw;
         font-size: larger;
