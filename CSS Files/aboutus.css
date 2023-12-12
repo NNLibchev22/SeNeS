@@ -1,6 +1,6 @@
 @import url(navbar.css);
 @import url(styles.css);
-@import url(footer.css);
+@import url(footer.css);  
 
 .start-pic{
     display: flex;

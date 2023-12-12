@@ -1,4 +1,4 @@
-body{
+body{ /* The whole website body*/
     background-color: white;
     font-family: 'Inter', sans-serif;
     margin: 0;
@@ -8,7 +8,7 @@ body{
     overflow: scroll;
 }
 
-body::-webkit-scrollbar{
+body::-webkit-scrollbar{ /* We don't want to have a scrollbar in the whole webpage*/
     display: none;
 }
 
