@@ -9,6 +9,7 @@ body{
     width: 100%;
     width: 100vw;
     overflow: hidden;
+    margin-top: 10vh;
 }
 
 .slider img{
@@ -213,6 +214,7 @@ body{
         height: 30vh;
         width: 100vw;
         overflow: hidden;
+        margin: 0;
     }
     
     .slider img{
