@@ -1,7 +1,23 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap');
 
 header{
-    background: #ECE3CE;
+    background: transparent;
+    display: flex;
+    align-items: center;
+    color: white;
+    width: 100%;
+    height:10vh;
+    font-size: 2.5vh;
+    z-index: 999;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    transition: all 0.4s ease;
+
+}
+
+.nav-scrolled{
+    background: rgb(58, 57, 57);
     display: flex;
     align-items: center;
     color: black;
@@ -12,6 +28,8 @@ header{
     justify-content: space-between;
     position: fixed;
     top: 0;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+    transition: all 0.4s ease;
 }
 
 .icons{
@@ -52,7 +70,7 @@ header{
 .lang i,
 .dark i{
     font-size: 3.5vh;
-    color: black;
+    color: white;
     text-decoration: none;
 }
 
@@ -70,7 +88,7 @@ header{
 .nav-item {
     text-decoration: none;
     width: 100%;
-    color: black;
+    color: white;
     transition: ease-in-out 0.3s;
     position: relative;
 }
