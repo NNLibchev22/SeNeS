@@ -1,17 +1,17 @@
 @import url(footer.css);
-@import url(navbar.css);
+@import url(navbar.css); /* We imported the navbar, footer, and styles css*/
 
 body{
-    overflow-x: hidden;
+    overflow-x: hidden;  /* That shows the body of the whole page*/
 }
 
-.slider{
+.slider{ /* That shows the slider where are 4 images*/
     height: 100vh;
     width: 100vw;
     overflow: hidden;
 }
 
-.big-text{
+.big-text{ /* That shows the images in slider and their specifics*/
     background: transparent;
     width: 100vw;
     position: absolute;
@@ -39,17 +39,17 @@ body{
     object-fit: cover;
 }
 
-.slides{
+.slides{ /* All slides together*/
     width: 500%;
     height: 100vh;
     display: flex;
 }
 
-.slides input{
+.slides input{ /* Display none of the slides */
     display: none;
 }
 
-.first-slide{
+.first-slide{ /* Specicifics of the first slide*/
     width: 20%;
     transition: 1s;
     display: flex;
@@ -61,7 +61,7 @@ body{
     display: flex;
 }
 
-.manual-nav{
+.manual-nav{ /* This is about the 4 four white things and when you drag the mouse to them they become white*/
     position: absolute;
     width: 100vw;
     margin-top: -7.5vh;
@@ -69,7 +69,7 @@ body{
     justify-content: center;
 }
 
-.manual-btn{
+.manual-btn{ /* This is about the 4 four white things and when you drag the mouse to them they become white*/
     border: 2px solid white;
     padding: 0vh;
     width: 5vw;
@@ -102,7 +102,7 @@ body{
     margin-left: -60%;
 }
 
-.auto-nav{
+.auto-nav{ /* This is about the 4 four white things and when you click them they become white*/
     position: absolute;
     width: 100vw;
     margin-top: 92.5vh;
@@ -110,7 +110,7 @@ body{
     justify-content: center;
 }
 
-.auto-nav div{
+.auto-nav div{ 
     border: 2px solid white;
     padding: 0vh;
     transition: 0.2s;
@@ -118,27 +118,28 @@ body{
     height: 1px;
 }
 
-.auto-nav div:not(:last-child){
+.auto-nav div:not(:last-child){  /* This is about the 4 four white things and their postition*/
     margin-right: 6.6vh;
 }
 
-#radio1:checked ~ .auto-nav .auto-btn1{
+#radio1:checked ~ .auto-nav .auto-btn1{ /* Background color of each of them */
     background-color: white;
 }
 
-#radio2:checked ~ .auto-nav .auto-btn2{
+#radio2:checked ~ .auto-nav .auto-btn2{  /* Background color of each of them */
+
     background-color: white;
 }
 
-#radio3:checked ~ .auto-nav .auto-btn3{
+#radio3:checked ~ .auto-nav .auto-btn3{  /* Background color of each of them */
     background-color: white;
 }
 
-#radio4:checked ~ .auto-nav .auto-btn4{
+#radio4:checked ~ .auto-nav .auto-btn4{ /* Background color of each of them */
     background-color: white;
 }
 
-.biggest-threats{
+.biggest-threats{ /* This is the big title*/
     display: flex;
     font-size: 9.666vh;
     gap: 2.5vh;
@@ -151,11 +152,11 @@ body{
     margin-bottom: 3vh;
 }
 
-.green-word{
+.green-word{ /* This is for the word 'THREATHS' */
     color: #A1C617;
 }
 
-.forest-fires{
+.forest-fires{ /* This is the parent of the first image and text */
     display: flex;
     justify-content: center;
     gap: 3.2vh;
@@ -165,21 +166,21 @@ body{
     margin-top: -6.6vh;
 }
 
-.forest-fires img{
+.forest-fires img{ /* This the image and its position */
     border-radius: 30px;
     width: 98.3vh;
     height: 60vh;
     margin-left: 2.45vh;
 }
 
-.forest-fires p{
+.forest-fires p{ /* This the text and its position and size */
     margin-top: 0vh;
     width: 40vw;
     height: 60vh;
     text-align: justify; 
 }
 
-.triple-img{
+.triple-img{ /* All three small images combined*/
     display: flex;
     justify-content: center;
     align-items: center;
@@ -189,7 +190,7 @@ body{
     height: 60vh;
 }
 
-.item-img img{
+.item-img img{ /* Pictures and its positions */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -199,14 +200,14 @@ body{
     height: 30vh;
 }
 
-.item-img p{
+.item-img p{ /* Text and how is aligned*/
     margin-left: 0vh;
     width: 50vh;
     text-align: justify;
 }
 
 
-.quote-div{
+.quote-div{ /* The quote and a background picture*/
     background-image: url(../Images/pexels-ákos-szabó-440731.jpg);
     background-size: cover;
     overflow: hidden;
@@ -218,7 +219,7 @@ body{
     filter: brightness(50%);
 }
 
-.white-box{
+.white-box{ /* The box around the quote*/
     background-color: rgba(255,255,255,0.6);
     display: flex;
     align-items: center;
@@ -230,11 +231,11 @@ body{
     margin-top: 20vh;
 }
 
-.text-quote{
+.text-quote{ /* Font size of the text in quote*/
     font-size: 35px;
 }
 
-@media screen and (max-width: 425px){
+@media screen and (max-width: 425px){ /* This shows that the page is responsive*/
     .slider{
         height: 30vh;
         width: 100vw;
